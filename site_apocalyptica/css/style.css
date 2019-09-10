@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+
+nav, ul {list-style: none;}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.z-index {z-index: 999;}
+
+/*Menu*/
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+header nav {display: flex;}
+header img {width: 70px;}
+
+header nav li a {
+	color: #fff; 
+	font-size: 1.3rem; 
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+header nav li{margin-right: 30px;color: #fff;}
+header nav li:last-child {margin-right: 0;}
+
+
+.dark-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100vh;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/header-img.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+	text-align: left;
+}
+
+.main h1 {
+	font-size: 5rem; 
+	color: #fff;
+	font-family: 'Cormorant', sans-serif;
+	font-weight: 400;
+}
+
+.main p {
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 1.2rem; 
+	font-weight: 300;
+	font-style: italic;
+	color: #fff; 
+	margin-bottom: 15px;
+	max-width: 500px;
+	border-left: 3px solid #fff;
+	padding-left: 8px;
+}
+
+.main a {
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 1.5rem;
+ 	color: #fff;
+  background-color: #212121;
+  padding: 5px 10px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 50px;
+	align-items: center;
+	background-image: url(../img/ShadowMaker.jpg);
+	background-size: cover;
+	background-position: 750px -300px;
+	margin-bottom: 30px;
+}
+
+.about h2 {
+	font-size: 4.5rem; 
+	margin-bottom: 20px;
+	color: #353535;
+	font-family: 'Cormorant', sans-serif;
+	font-weight: lighter;
+	border-bottom: 3px solid #282828;
+}
+
+.about p {
+	font-size: 1.5rem;
+	width: 800px;
+	color: #353535;
+	text-indent: 
+}
+
+.featured-album {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 25px 50px;
+	margin-bottom: 30px;
+}
+
+.featured-album h2 {
+	font-family: 'Cormorant', sans-serif;
+	font-weight: lighter;
+	font-size: 3.5rem;
+	color: #353535;
+	margin-bottom: 25px;
+}
+
+.featured-album h2 i {font-size: 2.8rem;}
+
+.album td {
+	color: #353535;
+	font-size: 1.5rem;
+	padding: 10px 10px;	
+}
+
+.album {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+li.img {
+	background-image: url('../img/ShadowMaker.jpg');
+	background-size: cover;
+	background-position: center;
+	min-width: 500px;
+	list-style: none;
+	margin-right: 25px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+li.img a {
+	width: 50%;
+	position: absolute;
+	bottom: 0;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Roboto Mono', sans-serif;
+	text-align: center;
+	padding: 10px 0;
+}
+
+li.img a:nth-child(2) {
+	right: 0;
+	background-color: rgb(30, 215, 96);
+}
+
+.featured-album table {border-collapse: collapse;}
+.featured-album td {font-family: 'Roboto Mono', sans-serif;}
+
+
+.tour-list {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0;
+	background-image: url('../img/tour-list-wllp.jpg');
+	background-size: cover;
+}
+
+.tour-list h3 {
+	font-family: 'Cormorant', sans-serif;
+	font-weight: lighter;
+	font-size: 3.5rem;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.tour-list table {border-collapse: collapse;}
+.tour-list th {
+	font-size: 1.8rem; 
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: lighter;
+	color: rgb(232, 232, 232);
+	text-align: left;
+}
+
+.tour-list table td {
+	font-size: 1.5rem;
+	text-align: left;
+	padding: 20px 30px 20px 0;
+	border-bottom: 1px solid #ccc;
+	color: rgb(232, 232, 232);
+}
+.tour-list table td:last-child {padding-right: 0;}
+
+.tour-list table th {border-bottom: 1px solid #ccc}
+
+.tour-list table a {
+	background-color: #000;
+	color: rgb(232, 232, 232);
+	padding: 15px 20px;
+	border-radius: 3px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: lighter;
+}
+.tour-lista table td i {color: rgb(232, 232, 232);}
+
+.tour-list .dark-bg {
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer ul {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+footer ul li {
+	font-size: 2rem;
+	margin-right: 15px;
+}
+
+footer img {width: 350px;}
+footer ul li:last-child {margin-right: 0;}
+footer ul li a {color: #000;}
+footer span {
+	font-family: 'Roboto Mono', sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 1.3rem;
+}

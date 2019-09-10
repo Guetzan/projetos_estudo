@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Home Finder</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:500,700" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<h2>Zary</h2>
+		<ul>
+			<li><a href="#">BUY</a></li>
+			<li><a href="#">RENT</a></li>
+			<li><a href="#">LOOK FOR AN AGENT</a></li>
+			<li><a class="login-button" href="#">SIGN IN</a>
+		</ul>
+		<div class="clear"></div>
+	</nav>
+	<header>
+		<div class="container">	
+			<div class="search-bar">
+				<input type="text" placeholder="City, 
+neighborhood or ZIP code..."><button><i class="fas fa-search"></i></button>
+			</div>
+
+			<div class="filters-field">
+				<div class="filter-input bedrooms">
+					<i class="fas fa-bed"></i><input type="text" placeholder="Number of bedrooms">
+				</div>
+
+				<div class="filter-input bedrooms">
+					<i class="fas fa-bath"></i><input type="text" placeholder="Number of bathrooms">
+				</div>
+
+				<div class="filter-input">
+					<i class="fas fa-home"></i><select>
+						<option >Select home type</option>
+					</select>			
+				</div>
+
+				<div class="cousts">
+					<!--icon here// coust-->
+					<i class="fas fa-dollar-sign"></i>
+					<input type="text" placeholder="Min"><input type="text" placeholder="Max" style="border-left: 1px solid #bbbbbb">
+				</div>
+
+				<div class="business-type">
+					<button>BUY</button>
+					<button>RENT</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="agents">
+		<h2>Are you having difficults to find your ideal house?</h2>
+		<h3>So don't worry, we have agents very competents in our crew.</h3>
+		<div class="agent-cards">
+			<div class="agent">
+				<div class="agent-photo" style="background: url('images/p23.jpeg') no-repeat; background-size: cover; background-position: center;"></div>
+				<div class="infos-field">
+					<div><h3>Louis Merlin</h3></div>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<p>Esse quis aliquip duis dolor laboris cillum elit esse veniam tempor magna. Ut qui mollit sit anim dolore proident non sit culpa officia elit dolor minim minim nisi incididunt voluptate.</p>
+				</div>
+				<a href="#"><i class="fas fa-comments contact-icon"></i>SEND A MESSAGE</a>
+			</div>
+
+			<div class="agent">
+				<div class="agent-photo" style="background: url('images/p3.jpeg') no-repeat; background-size: cover; background-position: center;"></div>
+				<div class="infos-field">
+					<h3>Suzan Lavoir</h3>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<p>Esse quis aliquip duis dolor laboris cillum elit esse veniam tempor magna. Ut qui mollit sit anim dolore proident non sit culpa officia elit dolor minim minim nisi incididunt voluptate.</p>
+				</div>
+				<a href="#"><i class="fas fa-comments contact-icon"></i>SEND A MESSAGE</a>
+			</div>
+
+			<div class="agent">
+				<div class="agent-photo" style="background: url('images/p1.jpeg') no-repeat; background-size: cover; background-position: center;"></div>
+				<div class="infos-field">
+					<h3>Denis Norlay</h3>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+					<p>Esse quis aliquip duis dolor laboris cillum elit esse veniam tempor magna. Ut qui mollit sit anim dolore proident non sit culpa officia elit dolor minim minim nisi incididunt voluptate.</p>
+				</div>
+				<a href="#"><i class="fas fa-comments contact-icon"></i>SEND A MESSAGE</a>
+			</div>
+		</div>
+		
+	</section>
+	<section class="house-list">
+		<div class="container">
+			<h2>HOUSE LIST</h2>
+			<div class="house-cards">
+				<div class="house-card">
+					<img src="images/ny.jpg">
+					<div class="house-infos">
+						<h3>HOUSE - RENT</h3>
+						<div class="header-wraper"><h2>$3.200/mo</h2></div>
+						<span><i class="fas fa-bed"></i>3bds.</span>
+						<span><i class="fas fa-bath"></i>2ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/apartment.jpg">
+					<div class="house-infos">
+						<h3>APARTMENT - SELL</h3>
+						<div class="header-wraper"><h2>$1.327.000</h2></div>
+						<span><i class="fas fa-bed"></i>2bds.</span>
+						<span><i class="fas fa-bath"></i>3ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house3.jpeg">
+					<div class="house-infos">
+						<h3>HOUSE - SELL</h3>
+						<div class="header-wraper"><h2>$2.214.000</h2></div>
+						<span><i class="fas fa-bed"></i>4bds.</span>
+						<span><i class="fas fa-bath"></i>3ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house4.jpeg">
+					<div class="house-infos">
+						<h3>HOUSE - RENT</h3>
+						<div class="header-wraper"><h2>$5.200/mo</h2></div>
+						<span><i class="fas fa-bed"></i>3bds.</span>
+						<span><i class="fas fa-bath"></i>2ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house5.jpg">
+					<div class="house-infos">
+						<h3>HOUSE - SELL</h3>
+						<div class="header-wraper"><h2>$21.000.000</h2></div>
+						<span><i class="fas fa-bed"></i>6bds.</span>
+						<span><i class="fas fa-bath"></i>8ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house6.jpeg">
+					<div class="house-infos">
+						<h3>HOUSE - RENT</h3>
+						<div class="header-wraper"><h2>$3.031.000</h2></div>
+						<span><i class="fas fa-bed"></i>4bds.</span>
+						<span><i class="fas fa-bath"></i>3ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house7.jpg">
+					<div class="house-infos">
+						<h3>HOUSE - RENT</h3>
+						<div class="header-wraper"><h2>$3.200/mo</h2></div>
+						<span><i class="fas fa-bed"></i>3bds.</span>
+						<span><i class="fas fa-bath"></i>2ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house8.jpg">
+					<div class="house-infos">
+						<h3>APARTMENT - SELL</h3>
+						<div class="header-wraper"><h2>$1.327.000</h2></div>
+						<span><i class="fas fa-bed"></i>2bds.</span>
+						<span><i class="fas fa-bath"></i>3ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house9.jpg">
+					<div class="house-infos">
+						<h3>HOUSE - SELL</h3>
+						<div class="header-wraper"><h2>$2.214.000</h2></div>
+						<span><i class="fas fa-bed"></i>4bds.</span>
+						<span><i class="fas fa-bath"></i>3ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house10.jpg">
+					<div class="house-infos">
+						<h3>HOUSE - RENT</h3>
+						<div class="header-wraper"><h2>$5.200/mo</h2></div>
+						<span><i class="fas fa-bed"></i>3bds.</span>
+						<span><i class="fas fa-bath"></i>2ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/house11.jpg">
+					<div class="house-infos">
+						<h3>HOUSE - SELL</h3>
+						<div class="header-wraper"><h2>$21.000.000</h2></div>
+						<span><i class="fas fa-bed"></i>6bds.</span>
+						<span><i class="fas fa-bath"></i>8ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+
+				<div class="house-card">
+					<img src="images/12.jpg">
+					<div class="house-infos">
+						<h3>HOUSE - RENT</h3>
+						<div class="header-wraper"><h2>$3.031.000</h2></div>
+						<span><i class="fas fa-bed"></i>4bds.</span>
+						<span><i class="fas fa-bath"></i>3ba.</span>
+						<h3>3481 Unknown Street, Los Angeles, CA</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer1">
+			<div class="container">
+				<ul>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Rules</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<span>
+					Follow US:
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-vk"></i></a>
+				</span>
+				<span>ZARY.COM - 2019</span>
+				<span>Developed by Clovis/Guetzan</span>
+			</div>
+		</div>		
+	</footer>
+</body>
+</html>
